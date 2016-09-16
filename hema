@@ -1,0 +1,36 @@
+//hai,  'am J.Hemalatha of sietk puttur this is the TestSolution Class
+
+import java.io.*;
+import java.util.Scanner;
+public class TestSolution1 {
+	
+	public static void main (String[] args) {
+		
+		Scanner br=new Scanner(System.in);
+		System.out.println("Enter any two numbers:");
+		int a=br.nextInt();
+		int b=br.nextInt();
+		Solution1 s=new Solution1();
+		s.sameLast(a,b);
+		
+	}
+}
+
+
+
+//this is the next class
+
+
+public class Solution1{
+	
+
+		public static void sameLast(int a,int b)
+		{
+			
+			if(a%10==b%10)
+				System.out.println("TRUE");
+			else
+				System.out.println("FALSE");
+		}
+	}
+		
